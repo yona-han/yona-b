@@ -26,5 +26,6 @@ class ThirdViewController: UIViewController {
         value.text = value.text! + "A"
     }
     
+    
 }
 
