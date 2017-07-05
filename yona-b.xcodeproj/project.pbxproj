@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED449A061F0C80F000FDA4EE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED449A051F0C80F000FDA4EE /* ThirdViewController.swift */; };
+		ED449A081F0C89BD00FDA4EE /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED449A071F0C89BD00FDA4EE /* NewViewController.swift */; };
+		ED449A141F0CAD7F00FDA4EE /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED449A131F0CAD7F00FDA4EE /* NextViewController.swift */; };
 		ED5A85E41F03A47700F006A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A85E31F03A47700F006A9 /* AppDelegate.swift */; };
 		ED5A85E61F03A47700F006A9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A85E51F03A47700F006A9 /* FirstViewController.swift */; };
 		ED5A85E81F03A47700F006A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A85E71F03A47700F006A9 /* SecondViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED449A051F0C80F000FDA4EE /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		ED449A071F0C89BD00FDA4EE /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		ED449A131F0CAD7F00FDA4EE /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		ED5A85E01F03A47700F006A9 /* yona-b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yona-b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5A85E31F03A47700F006A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5A85E51F03A47700F006A9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,9 @@
 				ED5A85E31F03A47700F006A9 /* AppDelegate.swift */,
 				ED5A85E51F03A47700F006A9 /* FirstViewController.swift */,
 				ED5A85E71F03A47700F006A9 /* SecondViewController.swift */,
+				ED449A051F0C80F000FDA4EE /* ThirdViewController.swift */,
+				ED449A071F0C89BD00FDA4EE /* NewViewController.swift */,
+				ED449A131F0CAD7F00FDA4EE /* NextViewController.swift */,
 				ED5A85E91F03A47700F006A9 /* Main.storyboard */,
 				ED5A85EC1F03A47700F006A9 /* Assets.xcassets */,
 				ED5A85EE1F03A47700F006A9 /* LaunchScreen.storyboard */,
@@ -266,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5A85E81F03A47700F006A9 /* SecondViewController.swift in Sources */,
+				ED449A141F0CAD7F00FDA4EE /* NextViewController.swift in Sources */,
 				ED5A85E41F03A47700F006A9 /* AppDelegate.swift in Sources */,
+				ED449A081F0C89BD00FDA4EE /* NewViewController.swift in Sources */,
+				ED449A061F0C80F000FDA4EE /* ThirdViewController.swift in Sources */,
 				ED5A85E61F03A47700F006A9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,7 @@
 				ED5A860C1F03A47700F006A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED5A860D1F03A47700F006A9 /* Build configuration list for PBXNativeTarget "yona-bTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				ED5A860F1F03A47700F006A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED5A86101F03A47700F006A9 /* Build configuration list for PBXNativeTarget "yona-bUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				ED5A86121F03A47700F006A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
